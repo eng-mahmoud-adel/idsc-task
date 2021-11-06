@@ -1,0 +1,65 @@
+/* start telegram social media */
+.telegram_social_media {
+    background-color: black;
+    color: white;
+}
+
+.telegram_social_media .social_header {
+    border-bottom: 1px solid #DDD;
+}
+
+.telegram_social_media .social_header .social_icon {
+    border-right: 1px solid #DDD;
+    padding: 16px;
+}
+
+.telegram_social_media .social_header .social_title h6 {
+    margin-left: 20px;
+}
+
+.telegram_social_media .social_body {
+    padding: 24px;
+}
+
+.telegram_social_media .social_body form .input-group-text {
+    background-color: black;
+}
+
+.telegram_social_media .social_body form .form-control {
+    background-color: black;
+    color: white;
+    border-left: 0;
+    padding-left: 0;
+}
+
+.telegram_social_media .social_body form .form-control:focus {
+    box-shadow: none;
+    border-color: #DDD;
+}
+
+/* end telegram social media */
+
+/* start twitter social media */
+.twitter_social_media {
+    background-color: #0e9ed5;
+    color: white;
+    height: 100%;
+}
+
+.twitter_social_media .social_header {
+    border-bottom: 1px solid #DDD;
+}
+
+.twitter_social_media .social_header .social_icon {
+    border-right: 1px solid #DDD;
+    padding: 16px;
+}
+
+.twitter_social_media .social_header .social_title h6 {
+    margin-left: 20px;
+}
+
+.twitter_social_media .social_body {
+    padding: 24px;
+}
+/* end twitter social media */

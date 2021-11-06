@@ -1,0 +1,37 @@
+.searchTabs li.nav-item {
+    z-index: 1;
+}
+
+.searchTabs li .nav-link {
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: 0;
+}
+
+.searchTabs li .nav-link.active {
+    color: black;
+    background-color: white;
+}
+
+.tab-content {
+    box-shadow: 0 3px 3px #DDD;
+}
+
+.tab-content .tab-pane form .tab {
+    border-right: 1px solid #DDD;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.tab-content .tab-pane form .tab label {
+    font-weight: bold;
+}
+
+.tab-content .tab-pane form .submit  {
+    background-color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+    height: 55%;
+}

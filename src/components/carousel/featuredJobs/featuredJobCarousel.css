@@ -1,0 +1,71 @@
+.carousel .carousel-control-prev {
+    background: rgb(189 184 184);
+    border: 1px solid rgb(189 184 184);
+    height: 48px;
+    top: 518px;
+    left: 16px;
+}
+
+.carousel .carousel-control-next {
+    background: rgb(189 184 184);
+    border: 1px solid rgb(189 184 184);
+    height: 48px;
+    top: 518px;
+    left: 85px;
+}
+
+/* large screens */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .carousel .carousel-control-prev {
+        top: 503px;
+        left: 10px;
+    }
+    
+    .carousel .carousel-control-next {
+        top: 503px;
+        left: 63px;
+    }
+}
+/* large screens */
+
+/* medium screens */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .carousel .carousel-control-prev {
+        top: 433px;
+        left: 10px;
+    }
+    
+    .carousel .carousel-control-next {
+        top: 433px;
+        left: 47px;
+    }
+}
+/* medium screens */
+
+/* small screens */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel .carousel-control-prev {
+        top: 577px;
+        left: 16px;
+    }
+    
+    .carousel .carousel-control-next {
+        top: 577px;
+        left: 105px;
+    }
+}
+/* small screens */
+
+/* extra small screens */
+@media (max-width: 575.98px) {
+    .carousel .carousel-control-prev {
+        top: 520px;
+        left: 16px;
+    }
+    
+    .carousel .carousel-control-next {
+        top: 520px;
+        left: 105px;
+    }
+}
+/* extra small screens */

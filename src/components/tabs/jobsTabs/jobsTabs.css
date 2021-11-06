@@ -1,0 +1,43 @@
+.jobsTabs {
+    background-color: rgb(233 233 233);
+    padding: 12px 0 0 18px !important;
+    border-top: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+.jobsTabs .nav-item .nav-link {
+    font-weight: bold;
+    color: grey;
+}
+
+.jobsTabs .nav-item .nav-link.active {
+    font-weight: bold;
+    color: black;
+}
+
+.tab-content {
+    border-right: 1px solid #DDD;
+}
+
+.tab-content .tab-pane .container {
+    border-bottom: 1px solid #DDD;
+}
+
+.tab-content .tab-pane .container {
+    border-bottom: 1px solid #DDD;
+}
+
+.tab-content .tab-pane .container .load_more {
+    color: black;
+    height: 46px;
+    background-color: rgb(233 233 233);
+    border-color: rgb(233 233 233);
+}
+
+/* extra small screens */
+@media (max-width: 575.98px) {
+    .jobsTabs {
+        font-size: 12px;
+    }
+}
+/* extra small screens */

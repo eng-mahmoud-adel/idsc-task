@@ -1,38 +1,60 @@
 .App {
-  text-align: center;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* search section */
+#search_section {
+    margin-top: -46px;
+}
+/* search section */
+
+/* jobs section */
+#jobs_section form .form-select {
+    width: 100%;
+    border: 0;
+    box-shadow: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#featured_jobs_section .left_side {
+    border: 1px solid #DDD;
+}
+/* jobs section */
+
+/* candidates section */
+#candidates {
+    text-align: center;
+    background-color: mediumslateblue;
+    padding-top: 48px;
+    color: white;
+    height: 400px;
+    margin-bottom: 200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#candidates hr {
+    width: 40px;
+    color: black;
+    opacity: 1;
+    height: 3px;
+    margin-inline: auto;
 }
 
-.App-link {
-  color: #61dafb;
+#candidates .btn-wrapper {
+    height: 150px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#candidates .explore_btn {
+    width: 250px;
+    height: 48px;
 }
+/* candidates section */
+
+/* language btn */
+#language_btn button {
+    position: fixed;
+    bottom: 50px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* language btn */

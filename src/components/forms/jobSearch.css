@@ -1,0 +1,24 @@
+.job_search {
+    border: 1px solid #DDD;
+}
+
+.job_search .job_search_header {
+    border-bottom: 1px solid #DDD;
+    height: 55px;
+}
+
+.job_search .job_search_header h5 {
+    margin-bottom: 0;
+    padding: 16px;
+    border-left: 1px solid #DDD;
+}
+
+.job_search .accordion .accordion-item .accordion-header button {
+    padding: 14px 20px;
+}
+
+.job_search .submit {
+    background-color: black;
+    border-color: black;
+    height: 58px;
+}

@@ -1,0 +1,25 @@
+.job .job_image img {
+    width: 40px;
+}
+
+.job .info h6 {
+    white-space: nowrap;
+}
+
+.job .info .company_name {
+    border-right: 1px  solid #CCC;
+    font-size: 14px;
+}
+
+.job .info .company_slogan {
+    white-space: nowrap;
+    font-size: 12px;
+}
+
+.job_location span, .job_time span {
+    font-size: 12px;
+}
+
+.job_type .badge {
+    min-width: 89px;
+}
